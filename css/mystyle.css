@@ -27,6 +27,9 @@ html,body {
         padding:0px; 
         font-family:monserrat,sans-serif;
         background-color:rgba(241, 241,241,1.00);}
+        .swiper-slide{
+            width: 250px !important;
+        }
         .slider-box{
             margin: 20px;
             height: 350px;
@@ -100,6 +103,101 @@ html,body {
                         box-shadow: 2px 2px 12px rgba(47, 47, 47, 0.40);
                         transition: all ease 0.1s;
                     }
-        
+                    
     
+/* Add a black background color to the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the "active" element to highlight the current page */
+  .topnav a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  /* Style the search box inside the navigation bar */
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  
+  /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+  @media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=text] {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;
+    }
+  }
+  .topnav img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  /* Add a black background color to the top navigation */
+.topnav1 {
+    background-color: #794324;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav1 a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav1 a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav1 a.active {
+  background-color: #dd9869;
+  color: white;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav1-right {
+  float: right;
+}
+
+.topnav1 p{
+    padding-right: 10px;
 }

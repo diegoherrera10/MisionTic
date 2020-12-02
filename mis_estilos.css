@@ -35,7 +35,7 @@ h1,h2,h3,h4,h5,h6 {
 
 p {
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	font-size: 14px;
+	font-size: 20px;
 	line-height: 1.7;
 	color: #666666;
 	margin: 0px;
@@ -88,21 +88,32 @@ button:hover {
 
 .centro {
   width: 100%;
-  min-height: 90%;
+  min-height: 80%;
   overflow: hidden;
   float: left;
+  align-content: center;
+  text-align: center;
+  align-items: center;
 }
 
 .centro-izquierda {
   width: 50%;
-  min-height: 90vh;
+  min-height: 80vh;
   overflow: hidden;
   float: left;
 }
 
 .centro-derecha {
   width: 50%;
-  min-height: 90vh;
+  min-height: 80vh;
+  background-color: rgba(255,255,255, 0.8);
+  float: left;
+  align-content: center;
+}
+
+.centro-total {
+  width: 100%;
+  min-height: 80vh;
   background-color: rgba(255,255,255, 0.8);
   float: left;
   align-content: center;
@@ -111,7 +122,7 @@ button:hover {
 .footer{
   width: 100%;
   min-height: 10vh;
-  background-color: #DC7633;
+  background-color: #794324;
   float: left;
 }
 
@@ -119,8 +130,17 @@ button:hover {
 [ Form ]*/
 
 .formulario {
-  width: 70%;
-  padding: 150px 0px 0px 100px;
+  width: 100%;
+  padding-left: 25%;
+  padding-top: 10%;
+  padding-right: 25%;
+}
+
+.formulario-total {
+  width: 100%;
+  padding-left: 25%;
+  padding-top: 5%;
+  padding-right: 25%;
 }
 
 .formulario-titulo {

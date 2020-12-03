@@ -79,7 +79,7 @@ html,body {
                         position: absolute;
                         bottom: 0px;
                         height: 45px;
-                        background-color: #ff696e;
+                        background-color:  #794324;
                         width: 100%;
                         display: flex;
                         justify-content: center;
@@ -200,4 +200,5 @@ html,body {
 
 .topnav1 p{
     padding-right: 10px;
+    color: #ddd;
 }

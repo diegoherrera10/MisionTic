@@ -85,7 +85,7 @@ html,body {
                         position: absolute;
                         bottom: 0px;
                         height: 45px;
-                        background-color: #805a5b;
+                        background-color:  #794324;
                         width: 100%;
                         display: flex;
                         justify-content: center;
@@ -176,6 +176,13 @@ html,body {
 .topnav1 {
     background-color: #794324;
     overflow: hidden;
+}
+
+.topnav1 p{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;  
+  text-decoration: none;  
 }
 
 /* Style the links inside the navigation bar */

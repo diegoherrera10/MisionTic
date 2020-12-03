@@ -2,33 +2,31 @@
 <html>
 <head>
     <link rel="stylesheet" href="./css/mystyle1.css">
+    <script src="js/validausuario.js"></script>
 </head>
 <body class="image-fondo">
 
     <div class="topnav1">
         
-        <h1>Modificar producto</h1>
-        <a style ="float: right;" href="index.html">Cerrar sesión</a>
-        <a style ="float: right;" href="admin.html">Volver inicio</a>
+        <h1>Modificar/Eliminar producto</h1>
+        <a style ="float: right;" href="index.html" style="float: right;">Cerrar sesión</a>
+        <a style ="float: right;" href="admin.html" style="float: left;">Volver inicio</a>
         
     </div>
 
     <img src = "Images/papasmp.jpg" alt="papas" width="15%" width="250px">
+    
+    <form class ="formulario" name="formulario" action="" onSubmit="return validarCamposUsuario();" method="post">
+        <h4>Modificar producto</h4>
+        <p><input class="controls" type="text" name="ref" size="40" placeholder="Ingrese referencia de producto"></p>
+        <p><input class="controls" type="text" name="first_name" size="40" placeholder="Ingrese nombre de producto"></p>
+        <p><input class="controls" type="number" name="cant" size="40"placeholder="Ingrese cantidad de producto"></p>
+        <p><input class="controls" type="text" name="imagen" size="40" placeholder="Ingrese Imagen de producto"></p>
 
-    <form class ="formulario" action="ejemplo.php" method="post">
-        <p>Referencia: <input type="text" name="ref" size="40" placeholder="Ingrese referencia"></p>
-        <p>Nombre: <input type="text" name="nombre" size="40" placeholder="Ingrese nombre"></p>
-        <p>Cantidad: <input type="number" name="cant" size="40"placeholder="Ingrese cantidad"></p>
-        <p>Imagen: <input type="text" name="img" size="40" placeholder="Ingrese Imagen"></p>
-
-        <p>
-          <input type="submit" value="Modificar">
-          
-        </p>
+        <p> <input class="botons" type="submit" value="Modificar"></p>
     </form>
 
-    
-    <p1> <input type="reset" value="Eliminar"> </p1>
+    <button>Eliminar</button>
 
       <footer>
         <p>Grupo G dev</p>

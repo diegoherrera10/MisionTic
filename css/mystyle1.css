@@ -9,7 +9,7 @@
 .topnav1 a {
   float: left;
   color: #f2f2f2;
-  text-align: center;
+  text-align: left;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -50,29 +50,73 @@
   }
 
   h1{
-      color : #ccc;
+      color :white;
       text-align: center;
 
   }
 
   form {
+    
     width:300px;
     float: center;
     border-radius: 10px;
     font-family:raleway;
     border: 5px solid  #794324;
-    padding: 30px 40px 25px;
-    margin-top: 10px;
-    margin-left: 60%;
-    background-color: rgb(245, 219, 219);
+    padding: 30px 40px 30px;
+    margin-top: 15px;
+    margin-left: 50%;
+    background-color:white;
+    box-shadow: 7px 13px 37px #000;
     }
 
     .image-fondo {
-        background-image: url("../img/fondo.jpg");
+        background-image: url("../Images/fondo.jpg");
         background-size: cover;
         }
 
-p1 {
-    margin-left: 20%; 
-    margin-top: 65%;
+    button {
+        float: left;
+        background: #d86b2c;
+        color: white;
+        padding: 12px;
+        margin-left: 30%;
+        margin-top: 20px;
+    }
+/* p1 {
+    padding: 12px;
+    background: #794324;
+    color: white;
+    margin-left:25%; 
+    margin-top:60px;
+}   */
+
+img {
+    float: left;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 25%;
+}
+
+h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #794324 ;
+}
+
+.controls {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    border: 1px solid #794324;
+    margin: center;
+
+}
+
+.botons {
+    width: 100%;
+    background: #d86b2c;
+    padding: 12px;
+    color: white;
+    
 }

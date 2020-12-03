@@ -3,7 +3,9 @@
 <head>
 	<title>Inventario Cafetería</title>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="css/mis_estilos.css">
+    <link rel="stylesheet" type="text/css" href="css/mis_estilos.css">
+    <script src="js/validausuario.js"></script>
+
 
 </head>
 <body>
@@ -18,9 +20,9 @@
             </div>
 
             <div class="centro-derecha">
-                <form class="formulario">
+                <form name="formulario" class="formulario" method="post" action="" onSubmit="return validar_formulario_login();">
                     <div class="formulario-subtitulo">
-                        <img height=100px src="images/cafe.png"></img>
+                        <img height=100px src="Images/cafe.png"></img>
                     </div>
                     <div class="formulario-titulo">
                         Inventario Cafetería
@@ -35,19 +37,21 @@
                     </div>
                     
                     <div class="espacio_campo_texto">
-                        <input class="campo_texto" type="text" name="username" placeholder="Correo electrónico">
+                        <input class="campo_texto" type="text" name="email" placeholder="Correo electrónico">
                         <span class="focus-input100"></span>
                     </div>
                     <div class="espacio_campo_texto">
-                        <input class="campo_texto" type="password" name="pass" placeholder="Contraseña">
+                        <input class="campo_texto" type="password" name="password" placeholder="Contraseña">
                         <span class="focus-input100"></span>
                     </div>
                     
+
                     <div class="espacio_boton">
-                        <button class="boton">
-                            Iniciar sesión
-                        </button>
+                        <input type="submit" class="boton" value="Iniciar sesión">
                     </div>
+
+                    <!--<p><img src="./img/show_pwd.PNG" onmouseover="mostrarPassword();" onmouseout="ocultarPassword();"/></p>-->
+
                     <br>
 
 
@@ -55,16 +59,19 @@
                         <a href="recuperacion_pass.html">
                             Recuperación de contraseña
                         </a>
+
                     </div>
                     <div class="formulario-subtitulo">
                         <a href="admin.html">
                             Admin
                         </a>
+
                     </div>
                     <div class="formulario-subtitulo">
                         <a href="Usuario.html">
                             Usuario
                         </a>
+
                     </div>
 
             </form>

@@ -3,7 +3,8 @@
 <head>
 	<title>Inventario Cafetería - Recuperación contraseña</title>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="css/mis_estilos.css">
+    <link rel="stylesheet" type="text/css" href="css/mis_estilos.css">
+    <script src="js/validausuario.js"></script>
 
 </head>
 <body>
@@ -12,15 +13,14 @@
         
         <div class="footer">
         </div>
-        
 
         <div class="centro">
 
 
             <div class="centro-total">
-                <form class="formulario-total">
+                <form name="formulario" class="formulario-total" method="post" action="" onSubmit="return validar_formulario_recupera();">
                     <div class="formulario-subtitulo">
-                        <img height=100px src="images/cafe.png"></img>
+                        <img height=100px src="Images/cafe.png"></img>
                     </div>
                     <div class="formulario-titulo">
                         Inventario Cafetería
@@ -36,14 +36,12 @@
                     </div>
                     
                     <div class="espacio_campo_texto">
-                        <input class="campo_texto" type="text" name="username" placeholder="Correo electrónico">
+                        <input class="campo_texto" type="text" name="email" placeholder="Correo electrónico">
                         <span class="focus-input100"></span>
                     </div>
                     
                     <div class="espacio_boton">
-                        <button class="boton">
-                            Enviar correo
-                        </button>
+                        <input type="submit" class="boton" value="Enviar correo">
                     </div>
                     <br>
 
